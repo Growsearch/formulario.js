@@ -8,22 +8,30 @@
     <title>Formulario Java Script</title>
 </head>
 <body>
-    <h1>Validador de Cep e preço Bitcoin BRL</h1>
-    <h3>vamos com tudo começar nosso estudo de API</h3>
-    <p>Nesse teste irei começar utilizando uma API de CEP do site <mark style="background: rgb(163, 0, 238); color: white;" >viacep.com.br </mark>para fazer um validador de cep on-line.</p>
 
-    <form id="buscaCep">
-        <label for="cep">CEP</label>
-        <input type="text" name="cep" id="cep">
-        <input type="button" value="buscar cep" id="btnCep">
-    </form>
+    <main>
+        <h1>Validador de CEP</h1>
+        <h3>Por aqui conseguimos digitar o nosso CEP e ver as informações do seu endereço abaixo.</h3>
+        <p>Para criar esta página utilizei Html, css e JavaScript. </p>
+        <p>Nesse teste irei começar utilizando uma API de CEP do site <mark style="background: rgb(163, 0, 238); color: white;" >viacep.com.br </mark>para fazer um validador de cep on-line.</p>
 
-    <div class="resultadoCep"> </div>
+        <form id="buscaCep">
+            <label for="cep">CEP</label>
+            <input type="text" name="cep" id="cep">
+            <input type="button" value="buscar cep" id="btnCep">
+        </form>
 
-    <div>
-        <h1>Preço BTC</h1>
-        <p class="btc"></p>
-    </div>
+        <div class="resultadoCep"> Resultado aqui </div>
+
+        <!-- <div>
+            <h1>Preço BTC</h1>
+            <p class="btc"></p>
+        </div> --> 
+    </main>
+
+    <footer>
+        <p>feito pela GrowSearch</p>
+    </footer>
     
     <script  type="module" src="javaScript/javascript.js"></script>
 </body>
